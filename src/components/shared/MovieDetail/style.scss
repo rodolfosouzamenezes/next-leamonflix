@@ -1,0 +1,66 @@
+.fullScreen {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 10%;
+    background: #1D1D1D;
+    z-index: 99999;
+    opacity:1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.fullScreen:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+.fullScreen:target > div {
+    width: 100%;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.buttonClose {
+    position: absolute;
+    width: 25px;
+    right: 0;
+    top: 0;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: rgb(211, 209, 209);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movieBanner {
+    padding: 0%;
+    margin: 0%;
+}
+
+.bannerCover {
+    border-radius: 20px;
+}
+
+.movieDetail {
+    margin: 1% 2% 1% 2%;
+    color: white;
+}
+
+.synopsis {
+    margin: 1% 2% 1% 2%;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+}

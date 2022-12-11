@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+}
+
+//initial header
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 3% 3% 3%;
+}
+
+image {
+    border: 20px solid red;
+}
+
+.topHeader {
+    display: flex;
+}
+
+.menu {
+    font-size: 32px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+//final header
+
+.middle {
+    display: flex;
+    margin-right: 3%;
+}
+//init social midia
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 8rem;
+    height: 20rem;
+    margin: 5% 3% 0 3%;
+}
+
+.icons {
+    border-radius: 15%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleTop {
+    color: white;
+    font-size: 32px;
+    margin: 0 0 3% 0;
+}
+
+.movieContent {
+    width: 100%;
+    margin-top: -0.5%;
+    padding: 5px 5px;
+}
+
+.movieCover {
+    border-radius: 5%;
+}
+
+.listMovies {
+    display: inline-flex;
+    margin: 0.7% 0.7% 0.7% 0.7%;
+}
+//final social midia
+
+//init footer
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+
+.producedBy {
+    color: white;
+    font-size: 16px;
+    margin-left: 13%;
+}
+
+.buttonsFoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 4%;
+    height: 6rem;
+}
+//final footer
+
+//init buttons
+.installApp {
+    width: 8rem;
+    height: 2.2rem;
+    background: #FF0000;
+    border-radius: 8px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.feedback {
+    width: 8rem;
+    height: 2.2rem;
+
+    background: #000000;
+    border: 1px solid #0085FF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #0085FF;
+}
+//final buttons
